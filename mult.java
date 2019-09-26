@@ -1,7 +1,11 @@
 public class mult implements calculate {
-        @Override
-        public void calculate(int num1, int num2){
-                System.out.println(num1 * num2);
+
+        public void calculate(double ... args){
+                double mu = 0;
+                for (double i: args) mu *= i;
+
+                System.out.println(mu);
         }
+
 }
 

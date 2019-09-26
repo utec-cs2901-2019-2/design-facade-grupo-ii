@@ -12,19 +12,19 @@ public class facade{
 	}
 
 
-	public void doSuma(int n, int m){
-		Suma.calculate(n, m);
+	public void doSuma(double ... args){
+		Suma.calculate(args);
 	}
 
-	public void doResta(int n, int m){
-		Resta.calculate(n, m);
+	public void doResta(double ... args){
+		Resta.calculate(args);
 	}
 
-	public void doMult(int n,int  m){
-		Mult.calculate(n, m);
+	public void doMult(double ... args){
+		Mult.calculate(args);
 	}
 
-	public void doDiv(int n,int  m){
-		Div.calculate(n, m);
+	public void doDiv(double ... args){
+		Div.calculate(args);
 	}
 }

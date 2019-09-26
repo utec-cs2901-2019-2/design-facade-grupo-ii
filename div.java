@@ -1,8 +1,12 @@
 public class div implements calculate {
         @Override
-        public void calculate(int num1, int num2){
-                System.out.println(num1 * num2);
+        public void calculate(double ... args){
+                double di = 0;
+                for (double i: args) di /= i;
+
+                System.out.println(di);
         }
+
 
 }
 
