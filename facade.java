@@ -11,19 +11,20 @@ public class facade{
 		Div = new div();
 	}
 
-	public void doSuma(){
-		Suma.calculate();
+
+	public void doSuma(int n, int m){
+		Suma.calculate(n, m);
 	}
 
-	public void doResta(){
-		Resta.calculate();
+	public void doResta(int n, int m){
+		Resta.calculate(n, m);
 	}
 
-	public void doMult(){
-		Mult.calculate();
+	public void doMult(int n,int  m){
+		Mult.calculate(n, m);
 	}
 
-	public void doDiv(){
-		Div.calculate();
+	public void doDiv(int n,int  m){
+		Div.calculate(n, m);
 	}
 }
